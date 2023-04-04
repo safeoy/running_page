@@ -572,7 +572,7 @@ For more display effects, see:
 <details>
 <summary> Deploy to GitHub Pages </summary>
 
-1. If you are using a custom domain for GitHub Pages, open [.github/workflows/gh-pages.yml](.github/workflows/gh-pages.yml), change `fqdn` value to the domain name of your site.
+1. If you are using a custom domain for GitHub Pages, open [.github/workflows/gh-pages.yml](.github/workflows/gh-pages.yml.del), change `fqdn` value to the domain name of your site.
 
 2. (_Skip this step if you're **NOT** using a custom domain_) Modify `gatsby-config.js`, change `pathPrefix` value to the root path. If the repository name is `running_page`, the value will be `/running_page`.
 

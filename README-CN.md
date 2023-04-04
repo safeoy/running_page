@@ -739,7 +739,7 @@ python3(python) scripts/gen_svg.py --from-db --type circular --use-localtime
    1. 更新[./gatsby-config.js](./gatsby-config.js#L3)中的`siteMetadata`节点；  
       （按需）如果启用自定义域名模式或者变更Fork后的仓库名称，请变更`pathPrefix`的值。
    2. 更新GitHub CI的配置 [.github/workflows/run_data_sync.yml](.github/workflows/run_data_sync.yml#L24) 中的配置；
-   3. （按需）如需使用自定义域名，可以修改 [.github/workflows/gh-pages.yml](.github/workflows/gh-pages.yml#L60) 中的 `fqdn`（默认已注释掉）
+   3. （按需）如需使用自定义域名，可以修改 [.github/workflows/gh-pages.yml](.github/workflows/gh-pages.yml.del#L60) 中的 `fqdn`（默认已注释掉）
    4. 在仓库的`Settings > Secrets and variables > Actions`页面添加对应服务的环境配置信息，参考不同平台[配置](#支持)。
 3. 同步数据并发布GitHub Pages
    1. 手动触发`Run Data Sync`的Github Action完成数据同步，完成后会自动触发`Publish GitHub Pages`的任务执行，等待执行完成；
