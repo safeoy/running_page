@@ -9,9 +9,9 @@ const MUNICIPALITY_CITIES_ARR = [
   '香港特别行政区',
   '澳门特别行政区',
 ];
-const MAP_LAYER_LIST=['road-label',  'waterway-label',  'natural-line-label',  
-                      'natural-point-label',  'water-line-label',  'water-point-label',  
-                      'poi-label',  'airport-label',  'settlement-subdivision-label',  
+const MAP_LAYER_LIST=['road-label',  'waterway-label',  'natural-line-label',
+                      'natural-point-label',  'water-line-label',  'water-point-label',
+                      'poi-label',  'airport-label',  'settlement-subdivision-label',
                       'settlement-label',  'state-label',  'country-label',
                      ];
 
@@ -25,7 +25,7 @@ const MAP_HEIGHT = 600;
 const ROAD_LABEL_DISPLAY = true;
 
 // IF you outside China please make sure IS_CHINESE = false
-const IS_CHINESE = true;
+const IS_CHINESE = false;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength, year) => {
   const yearStr = year === 'Total' ? '所有' : ` ${year} `;
