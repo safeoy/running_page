@@ -7,12 +7,8 @@ module.exports = {
     description: 'Personal site and blog',
     navLinks: [
       {
-        name: 'Blog',
-        url: 'https://blog.iduqian.com/',
-      },
-      {
         name: 'About',
-        url: 'https://github.com/safeoy/running_page/blob/master/README-CN.md',
+        url: 'https://github.com/safeoy/running_page',
       },
     ],
   },
