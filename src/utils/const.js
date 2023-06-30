@@ -29,7 +29,7 @@ const USE_DASH_LINE = true;
 // styling: route line opacity: [0, 1]
 const LINE_OPACITY = 0.4;
 // styling: map height
-const MAP_HEIGHT = 600;
+const MAP_HEIGHT = 0;
 //set to `false` if you want to hide the road label characters
 const ROAD_LABEL_DISPLAY = true;
 
