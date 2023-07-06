@@ -1,5 +1,7 @@
 import React from 'react';
 import YearStat from 'src/components/YearStat';
+import ThisWeekStat from 'src/components/ThisWeekStat';
+import ThisMonthStat from 'src/components/ThisMonthStat';
 import useActivities from 'src/hooks/useActivities';
 import { INFO_MESSAGE } from 'src/utils/const';
 
@@ -21,6 +23,8 @@ const YearsStat = ({ year, onClick }) => {
         </p>
       </section>
       <hr color="red" />
+      <ThisWeekStat key="ThisWeek" year="ThisWeek" onClick={onClick} />
+      <ThisMonthStat key="ThisMonth" year="ThisMonth" onClick={onClick} />
       {yearsArrayUpdate.map((year) => (
         <YearStat key={year} year={year} onClick={onClick} />
       ))}
