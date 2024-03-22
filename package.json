@@ -52,7 +52,7 @@
   "engineStrict": true,
   "browserslist": "defaults, not ie 11",
   "engines": {
-    "node": ">=14.15.0"
+    "node": "^18.12.0"
   },
   "repository": {
     "type": "git",
